@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-20T22:12:17Z" name="Suite" finished-at="2022-11-20T22:12:35Z" duration-ms="17979">
+    <groups>
+      <group name="smoke">
+        <method signature="eCommerce_tc_2.FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:eCommerce_tc_2@13330ac6]" name="FillForm" class="eCommerce_tc_2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-11-20T22:12:17Z" name="End to end Framework Test" finished-at="2022-11-20T22:12:35Z" duration-ms="17979">
+      <class name="eCommerce_tc_2">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:eCommerce_tc_2@13330ac6]" started-at="2022-11-21T03:12:12Z" name="configureAppium" finished-at="2022-11-21T03:12:17Z" duration-ms="4992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:eCommerce_tc_2@13330ac6]" started-at="2022-11-21T03:12:17Z" name="preSetup" finished-at="2022-11-21T03:12:17Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:eCommerce_tc_2@13330ac6]" started-at="2022-11-21T03:12:17Z" name="FillForm" data-provider="getData" finished-at="2022-11-21T03:12:35Z" duration-ms="17717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muneeb Khalil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Argentina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:eCommerce_tc_2@13330ac6]" started-at="2022-11-21T03:12:35Z" name="shutDown" finished-at="2022-11-21T03:12:35Z" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- eCommerce_tc_2 -->
+    </test> <!-- End to end Framework Test -->
+  </suite> <!-- Suite -->
+</testng-results>

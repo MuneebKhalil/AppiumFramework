@@ -1,0 +1,4 @@
+adb shell dumpsys window | find "mCurrentFocus"
+mvn test -PSmoke
+
+java -jar jenkins.war -httpPort=9090
