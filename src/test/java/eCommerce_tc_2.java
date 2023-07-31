@@ -62,7 +62,7 @@ public class eCommerce_tc_2 extends BaseTest{
         longPressAction(termAndCondition);
 
        String alertTitle = driver.findElement(By.id("com.androidsample.generalstore:id/alertTitle")).getText();
-        Assert.assertEquals(alertTitle, "Terms Of Conditions");
+        Assert.assertEquals(alertTitle, "Terms Of Condition");
         driver.findElement(By.id("android:id/button1")).click();
         driver.findElement(AppiumBy.className("android.widget.CheckBox")).click();
         driver.findElement((By.id("com.androidsample.generalstore:id/btnProceed"))).click();

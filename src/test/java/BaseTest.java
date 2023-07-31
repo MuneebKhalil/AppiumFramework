@@ -36,7 +36,7 @@ public class BaseTest {
         service.start();
 
         UiAutomator2Options options = new UiAutomator2Options();
-        options.setDeviceName("MuneebEmulator");
+        options.setDeviceName("Android");
         options.setApp("E:\\Appium\\AppiumGeneralStore\\src\\test\\java\\Resources\\General-Store.apk");
 //        DesiredCapabilities cap = new DesiredCapabilities();
 //        cap.setCapability("deviceName", "Xiaomi M2012K11AG");
